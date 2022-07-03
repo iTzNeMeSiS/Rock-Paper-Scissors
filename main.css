@@ -5,8 +5,12 @@
   margin: 0;
   padding: 0;
 }
+button {
+    width: 280px;
+    height: 280px;
+}
 .main {
-    height: 70vh;
+    height: 50vh;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -30,7 +34,6 @@
     padding-top: 80px;
 }
 .main-item {
-    border: 1px solid blue;
     width: 250px;
     height: 250px;
     display: flex;
@@ -44,4 +47,18 @@
 .footer {
     padding: 40px;
     border: 1px solid red;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+#left-rock,
+#left-paper,
+#left-scissors,
+#right-rock,
+#right-paper,
+#right-scissors {
+    display: none;
 }
