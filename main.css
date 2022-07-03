@@ -18,7 +18,6 @@ button {
 }
 .header {
     padding: 50px;
-    border: 1px solid red;
 }
 .nav {
     display: flex;
@@ -46,7 +45,6 @@ button {
 }
 .footer {
     padding: 40px;
-    border: 1px solid red;
 }
 .play {
     display: flex;
@@ -58,6 +56,38 @@ button {
 #left-scissors,
 #right-rock,
 #right-paper,
-#right-scissors {
+#right-scissors,
+#start,
+#right-start {
     display: none;
+}
+#start,
+#right-start {
+    animation: spin .5s 3;
+}
+
+@keyframes spin {
+0% {
+    animation-timing-function: ease-out;
+    transform: rotate(0deg);
+}
+25% {
+    transform: rotate(-10deg);
+}
+50% {
+    transform: rotate(-20);
+}
+100% {
+    animation-timing-function: ease-in;
+}
+}
+
+
+.pick {
+    text-align: center;
+    padding-bottom: 100px;
+}
+#winner {
+    text-align: center;
+    padding-top: 50px;
 }
