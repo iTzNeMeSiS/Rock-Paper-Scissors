@@ -8,17 +8,23 @@ function randomNumber(n) {
 function showRock(){
     document.getElementById('right-rock').style.display = "block";
     document.getElementById('rock').style.display = "none";
+    document.getElementById('paper').style.display = "none";
+    document.getElementById('scissors').style.display = "none";
     let usersPlay = "rock";
     functions[randomNumber(functions.length)]();
 }
 function showPaper() {
     document.getElementById('right-paper').style.display = "block";
+    document.getElementById('rock').style.display = "none";
     document.getElementById('paper').style.display = "none";
+    document.getElementById('scissors').style.display = "none";
     let usersPlay = "paper";
     functions[randomNumber(functions.length)]();
 }
 function showScissors() {
     document.getElementById('right-scissors').style.display = "block";
+    document.getElementById('rock').style.display = "none";
+    document.getElementById('paper').style.display = "none";
     document.getElementById('scissors').style.display = "none";
     let usersPlay = "scissors";
     functions[randomNumber(functions.length)]();
