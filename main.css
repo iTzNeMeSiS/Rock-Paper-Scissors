@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header {
+    padding: 50px;
+    border: 1px solid red;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.main-header {
+    text-align: center;
+    padding-top: 80px;
+}
+.main-item {
+    border: 1px solid blue;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text {
+    text-align: center;
+    list-style-type: none;
+}
+.footer {
+    padding: 40px;
+    border: 1px solid red;
+}
