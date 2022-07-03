@@ -72,12 +72,14 @@ function startPaper() {
     play();
     setTimeout(function(){ showPaper(); }, 2000);
     setTimeout(function(){ end(); }, 2000);
+    setTimeout(function(){ tie(); }, 2000);
     setTimeout(function(){ hide(); }, 4000);
 }
 function startScissors() {
     play();
     setTimeout(function(){ showScissors(); }, 2000);
     setTimeout(function(){ end(); }, 2000);
+    setTimeout(function(){ tie(); }, 2000);
     setTimeout(function(){ hide(); }, 4000);
 }
 
