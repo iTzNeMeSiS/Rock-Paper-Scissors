@@ -17,15 +17,27 @@
         </nav>
     </header>
     <h1 class="main-header">Rock, Papper, Scissors.</h1>
+    <div class="play">
+        <div id="left-play">
+            <img id="left-rock" src="./images/rock-left.png" alt="">
+            <img id="left-paper" src="./images/paper-left.png" alt="">
+            <img id="left-scissors" src="./images/scissors-left.png" alt="">
+        </div>
+        <div id="right-play">
+            <img id="right-rock" src="./images/rock-right.png" alt="">
+            <img id="right-paper" src="./images/paper-right.png" alt="">
+            <img id="right-scissors" src="./images/scissors-right.png" alt="">
+        </div>
+    </div>
     <main class="main">
         <div class="main-item">
-            Rock
+            <button onclick="showRock()" id="rock"  id="rock"><img src="./images/rock.png" alt=""></button>
         </div>
         <div class="main-item">
-            Paper
+            <button onclick="showPaper()" id="paper"><img src="./images/paper.png" alt=""></button>
         </div>
         <div class="main-item">
-            Scissors
+            <button onclick="showScissors()" id="scissors"><img src="./images/scissors.png" alt=""></button>
         </div>
     </main>
     <footer class="footer">
