@@ -8,7 +8,7 @@ function randomNumber(n) {
     return Math.floor(Math.random() * 3);
 }
 function tie() {
-    if (usersPlay == computerPlay) {
+    if (globalThis.usersPlay == globalThis.computerPlay) {
         document.getElementById('winner') = "Tie!"
     }
 }
