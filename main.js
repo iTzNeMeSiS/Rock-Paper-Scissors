@@ -22,7 +22,7 @@ function showRock(){
     document.getElementById('scissors').style.display = "none";
     functions[randomNumber(functions.length)]();
     globalThis.usersPlay = "rock";
-    return rock;
+    return "rock";
 }
 
 function showPaper() {
@@ -32,7 +32,7 @@ function showPaper() {
     document.getElementById('scissors').style.display = "none";
     functions[randomNumber(functions.length)]();
     globalThis.usersPlay = "paper";
-    return paper;
+    return "paper";
 }
 function showScissors() {
     document.getElementById('right-scissors').style.display = "block";
@@ -41,24 +41,24 @@ function showScissors() {
     document.getElementById('scissors').style.display = "none";
     functions[randomNumber(functions.length)]();
     globalThis.usersPlay = "scissors";
-    return scissors;
+    return "scissors";
 }
 
 
 function showLeftRock(){
     document.getElementById('left-rock').style.display = "block";
     document.getElementById('rock').style.display = "none";
-    return rock;
+    return "rock";
 }
 function showLeftPaper() {
     document.getElementById('left-paper').style.display = "block";
     document.getElementById('paper').style.display = "none";
-    return paper;
+    return "paper";
 }
 function showLeftScissors() {
     document.getElementById('left-scissors').style.display = "block";
     document.getElementById('scissors').style.display = "none";
-    return scissors;
+    return "scissors";
 }
 
 function startRock() {
