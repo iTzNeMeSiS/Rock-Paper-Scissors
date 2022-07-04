@@ -9,7 +9,7 @@ After completing this project, I have accomplished:
     Properly implemented various types of JS selectors.
 
 Skills learned in this project:<br>
-![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt git logo](/images/git.png) ![alt js logo](/images/javascript.png) ![alt vscode logo](/images/vscode.png)<br>
+![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt js logo](/images/javascript.png) ![alt git logo](/images/git.png) ![alt vscode logo](/images/vscode.png)<br>
 
 Live Preview: https://itznemesis.github.io/Rock-Paper-Scissors/
 
