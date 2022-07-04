@@ -14,3 +14,7 @@ Skills learned in this project:<br>
 Live Preview: https://itznemesis.github.io/Rock-Paper-Scissors/
 
 Source of project: https://www.theodinproject.com/paths/foundations/courses/foundations
+
+Preview:
+
+![alt Rock-Paper-Scissors Preview](/images/preview.png)
