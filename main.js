@@ -8,36 +8,23 @@ function sleep(ms) {
 
 function showRock() {
   document.getElementById('right-rock').style.display = "block";
-  document.getElementById('rock').style.display = "none";
-  document.getElementById('paper').style.display = "none";
-  document.getElementById('scissors').style.display = "none";
 }
 
 function showPaper() {
   document.getElementById('right-paper').style.display = "block";
-  document.getElementById('rock').style.display = "none";
-  document.getElementById('paper').style.display = "none";
-  document.getElementById('scissors').style.display = "none";
 }
 function showScissors() {
   document.getElementById('right-scissors').style.display = "block";
-  document.getElementById('rock').style.display = "none";
-  document.getElementById('paper').style.display = "none";
-  document.getElementById('scissors').style.display = "none";
 }
-
 
 function showLeftRock(){
   document.getElementById('left-rock').style.display = "block";
-  document.getElementById('rock').style.display = "none";
 }
 function showLeftPaper() {
   document.getElementById('left-paper').style.display = "block";
-  document.getElementById('paper').style.display = "none";
 }
 function showLeftScissors() {
   document.getElementById('left-scissors').style.display = "block";
-  document.getElementById('scissors').style.display = "none";
 }
 
 function winner() {
@@ -52,28 +39,15 @@ function loss() {
   document.getElementById('loser').style.display = "block";
   document.getElementById('loser').innerHTML = "You lost!"
 }
-function startRock() {
-  startAnimation();
-  setTimeout(function(){ showRock(); }, 2000);
-  setTimeout(function(){ end(); }, 2000);
-  setTimeout(function(){ hide(); }, 4000);
+function Header() {
+  document.getElementById('header-container').style.display = "flex";
 }
-function startPaper() {
-  startAnimation();
-  setTimeout(function(){ showPaper(); }, 2000);
-  setTimeout(function(){ end(); }, 2000);
-  setTimeout(function(){ hide(); }, 4000);
-}
-function startScissors() {
-  startAnimation();
-  setTimeout(function(){ showScissors(); }, 2000);
-  setTimeout(function(){ end(); }, 2000);
-  setTimeout(function(){ hide(); }, 4000);
-}
+
 
 function end() {
   document.getElementById('start').style.display = "none";
   document.getElementById('right-start').style.display = "none";
+  document.getElementById('main').style.height = "400px";
 }
 function hide() {
   document.getElementById('right-rock').style.display = "none";
@@ -88,8 +62,11 @@ function hide() {
   document.getElementById('winner').style.display = "none";
   document.getElementById('loser').style.display = "none";
   document.getElementById('tie').style.display = "none";
-}
+  document.getElementById('header-container').style.display = "none";
+} 
 function startAnimation() {
+  document.getElementById('header-container').style.display = "flex";
+  document.getElementById('main').style.height = "0px";
   document.getElementById('rock').style.display = "none";
   document.getElementById('paper').style.display = "none";
   document.getElementById('scissors').style.display = "none";
