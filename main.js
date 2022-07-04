@@ -64,10 +64,12 @@ function hide() {
   document.getElementById('header-container').style.display = "none";
   document.getElementById('pick').style.display = "block";
   document.getElementById('header-container').style.paddingTop = "0px";
+  document.getElementById('RPS').style.display = "flex";
 } 
 function startAnimation() {
   document.getElementById('header-container').style.display = "flex";
   document.getElementById('main').style.height = "0px";
+  document.getElementById('RPS').style.display = "none";
   document.getElementById('header-container').style.paddingTop = "100px";
   document.getElementById('rock').style.display = "none";
   document.getElementById('pick').style.display = "none";
