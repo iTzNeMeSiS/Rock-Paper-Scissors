@@ -43,7 +43,6 @@ function Header() {
   document.getElementById('header-container').style.display = "flex";
 }
 
-
 function end() {
   document.getElementById('start').style.display = "none";
   document.getElementById('right-start').style.display = "none";
@@ -63,11 +62,15 @@ function hide() {
   document.getElementById('loser').style.display = "none";
   document.getElementById('tie').style.display = "none";
   document.getElementById('header-container').style.display = "none";
+  document.getElementById('pick').style.display = "block";
+  document.getElementById('header-container').style.paddingTop = "0px";
 } 
 function startAnimation() {
   document.getElementById('header-container').style.display = "flex";
   document.getElementById('main').style.height = "0px";
+  document.getElementById('header-container').style.paddingTop = "100px";
   document.getElementById('rock').style.display = "none";
+  document.getElementById('pick').style.display = "none";
   document.getElementById('paper').style.display = "none";
   document.getElementById('scissors').style.display = "none";
   document.getElementById('start').style.display = "block";
